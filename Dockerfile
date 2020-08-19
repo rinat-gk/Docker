@@ -1,6 +1,7 @@
 #Define repository
 FROM node:alpine
 
+#Define work directory
 WORKDIR '/app'
 
 COPY package.json .
